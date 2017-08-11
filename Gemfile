@@ -25,8 +25,14 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
+# Haml is a templating engine for HTML
+gem 'haml', '~> 5.0.0.beta.2'
+# Paperclip is an easy file attachment library for ActiveRecord
+gem "paperclip", "~> 5.0.0"
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
+# Simple Form aims with powerful components to create forms
+gem 'simple_form'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

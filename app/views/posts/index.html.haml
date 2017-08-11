@@ -1,0 +1,4 @@
+%h1 Picshare
+-@posts.each do |post|
+  =image_tag post.image.url(:medium)
+  =post.caption
